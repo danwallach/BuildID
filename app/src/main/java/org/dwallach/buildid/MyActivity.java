@@ -47,6 +47,6 @@ public class MyActivity extends Activity {
 
     private void addItem(String name, String value) {
         Log.v("BuildID", name + ": " + value);
-        buffer.append("<b><i>" + name + "</i></b><br/>" + value + "<hr/>");
+        buffer.append("<p><b><i>" + name + "</i></b><br/>" + value + "</p>");
     }
 }
